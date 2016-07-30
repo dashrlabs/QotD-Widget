@@ -1,7 +1,7 @@
 /** Do not rename this file **/
 import React from 'react';
 
-export default class MyNewWidget extends React.Component {
+export default class QotDWidget extends React.Component {
   static propTypes = {
     width: React.PropTypes.number,
     height: React.PropTypes.number,
