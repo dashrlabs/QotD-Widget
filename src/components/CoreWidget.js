@@ -9,7 +9,7 @@ export default class MyNewWidget extends React.Component {
   };
 
   static id = 'quote-of-the-day';
-  static widgetName = 'your-widget-name';
+  static widgetName = 'Quote of the Day';
   static sizes = [[1, 1], [2, 1]];
 
   render() {
