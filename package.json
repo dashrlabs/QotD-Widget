@@ -1,7 +1,7 @@
 {
   "name": "dashr-widget-quote-of-the-day",
   "productName": "quote-of-the-day",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Quote of the Day",
   "main": "build/components/CoreWidget.js",
   "scripts": {
