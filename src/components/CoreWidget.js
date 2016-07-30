@@ -14,14 +14,14 @@ export default class QotDWidget extends React.Component {
 
   render() {
     return (
-      <div className="uk-margin-left uk-vertical-align container uk-margin-right">
-        <div className="uk-vertical-align-middle">
-          <blockquote className="quote">
+      <div className="uk-margin-small-left container uk-margin-small-right">
+        <div className="uk-margin-small-top uk-flex-column">
+          <blockquote className="quote uk-flex-item-1 uk-margin-bottom-remove">
             <i className="uk-icon-medium uk-icon-quote-left uk-margin-small-right quote-text"></i>
             Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win.
             <i className="uk-icon-medium uk-icon-quote-right uk-margin-small-left"></i>
           </blockquote>
-          <i className="uk-align-right uk-margin-small-right">Sun Tzu</i>
+          <i className="uk-flex-item-none uk-flex-bottom uk-align-right uk-margin-small-right">Sun Tzu</i>
         </div>
       </div>
     );
